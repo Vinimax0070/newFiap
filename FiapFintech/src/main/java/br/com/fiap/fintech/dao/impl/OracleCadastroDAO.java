@@ -220,4 +220,3 @@ public class OracleCadastroDAO implements CadastroDAO {
 		return cadastro;
 	}
 }
-

@@ -15,7 +15,13 @@ public class Cadastro {
 	public Cadastro() {
 		super();
 	}
-
+	
+	public Cadastro(String ds_email,String senha) {
+		super();
+		
+	}
+	
+	
 	public Cadastro(int cd_pessoa,String nome, String sobrenome, String ds_email, String cpf, String senha, Calendar dt_nasc) {
 		super();
 		this.nome = nome;

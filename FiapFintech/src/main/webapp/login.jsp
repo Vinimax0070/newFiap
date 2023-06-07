@@ -90,15 +90,15 @@
               
               
               	
-                <form class="form" action="cadastro" method="post">
+                <form class="form" action="login" method="post">
                   <input type="hidden" value="login" name="acao">
                     <div class="form-floating mb-3">
-                        <input value="sada@adsa.com" type="email" class="form-control"
-                        name="email" id="email" placeholder="name@example.com">
+                        <input type="ds_email" class="form-control"
+                        name="ds_email" id="ds_email" placeholder="name@example.com">
                         <label for="floatingInput">E-mail</label>
                     </div>
                     <div class="form-floating">
-                        <input type="password" class="form-control" name="password" id="floatingPassword" placeholder="Password">
+                        <input type="password" class="form-control" name="password" id="password" placeholder="Password">
                         <label for="floatingPassword">Senha</label>
                     </div>
                     <a class="password" href="#">Esqueceu sua senha?</a>

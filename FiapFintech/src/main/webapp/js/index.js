@@ -9,3 +9,14 @@ btnSignin.addEventListener("click", function () {
 btnSignup.addEventListener("click", function () {
     body.className = "sign-up-js";
 })
+const sideMenu = document.querySelector("aside");
+const menuBtn = document.querySelector("#menu-btn");
+const closeBtn = document.querySelector("#close-btn");
+
+menuBtn.addEventListener('click', () => {
+    sideMenu.style.display = 'block';
+})
+
+closeBtn.addEventListener('click', () => {
+    sideMenu.style.display = 'none';
+})

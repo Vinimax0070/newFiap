@@ -78,7 +78,7 @@
             </li>
         </ul>
 
-            <p class="rodape1">® 2023 FiapFintech. Todos os direitos reservados. Conteúdo sujeito a disponibilidade.</p>
+            <p class="rodape1">® 2023 EcoPlus. Todos os direitos reservados. Conteúdo sujeito a disponibilidade.</p>
 
-            <p class="rodape">FiapFintech é um aplicativo de gestão financeira com foco em te ajudar a atingir suas metas lhe auxilando a monitorar receitas, despesas, investimentos e orçamentos de maneira prática e organizada.<br>O serviço FiapFintech tem sua sede na  Rua Fidêncio Ramos 308 -7th Floor - Torre a - Vila Olímpia,São Paulo - SP, 4551-902, · ~34,3 km, CNPJ:07.026.295/0001-14.</p>
+            <p class="rodape">EcoPlus é um aplicativo de gestão financeira com foco em te ajudar a atingir suas metas lhe auxilando a monitorar receitas, despesas, investimentos e orçamentos de maneira prática e organizada.<br>O serviço EcoPlus tem sua sede na  Rua Fidêncio Ramos 308 -7th Floor - Torre a - Vila Olímpia,São Paulo - SP, 4551-902, · ~34,3 km, CNPJ:07.026.295/0001-14.</p>
     </footer>
