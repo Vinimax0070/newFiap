@@ -54,7 +54,7 @@
             </li>
 
             <li class="listalink">
-                <a href="#">Dispositivos compatÃ­veis</a>
+                <a href="#">Dispositivos compatíveis</a>
             </li>
 
             <li class="listalink">
@@ -62,15 +62,15 @@
             </li>
 
             <li class="listalink">
-                <a href="#">PolÃ­tica de privacidade</a>
+                <a href="#">Política de privacidade</a>
             </li>
 
             <li class="listalink">
-                <a href="#">ProteÃ§Ã£o de dados no Brasil</a>
+                <a href="#">Proteção de dados no Brasil</a>
             </li>
 
             <li class="listalink">
-                <a href="#">AnÃºncios personalizados</a>
+                <a href="#">Anúncios personalizados</a>
             </li>
 
             <li class="listalink">
@@ -78,7 +78,7 @@
             </li>
         </ul>
 
-            <p class="rodape1">Â® 2023 FiapFintech. Todos os direitos reservados. ConteÃºdo sujeito a disponibilidade.</p>
+            <p class="rodape1">® 2023 FiapFintech. Todos os direitos reservados. Conteúdo sujeito a disponibilidade.</p>
 
-            <p class="rodape">FiapFintech Ã© um aplicativo de gestÃ£o financeira com foco em te ajudar a atingir suas metas lhe auxilando a monitorar receitas, despesas, investimentos e orÃ§amentos de maneira prÃ¡tica e organizada.<br>O serviÃ§o FiapFintech tem sua sede na  Rua FidÃªncio Ramos 308 -7th Floor - Torre a - Vila OlÃ­mpia,SÃ£o Paulo - SP, 4551-902, Â· ~34,3 km, CNPJ:07.026.295/0001-14.</p>
+            <p class="rodape">FiapFintech é um aplicativo de gestão financeira com foco em te ajudar a atingir suas metas lhe auxilando a monitorar receitas, despesas, investimentos e orçamentos de maneira prática e organizada.<br>O serviço FiapFintech tem sua sede na  Rua Fidêncio Ramos 308 -7th Floor - Torre a - Vila Olímpia,São Paulo - SP, 4551-902, · ~34,3 km, CNPJ:07.026.295/0001-14.</p>
     </footer>

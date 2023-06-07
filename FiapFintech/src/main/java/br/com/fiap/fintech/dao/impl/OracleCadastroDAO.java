@@ -179,5 +179,45 @@ public class OracleCadastroDAO implements CadastroDAO {
 		}
 		return lista;
 	}
+	public Cadastro listarCadastro(String email) {
+		List<Cadastro> lista = new ArrayList<Cadastro>();
+		PreparedStatement stmt = null;
+		ResultSet rs = null;
+		Cadastro cadastro = new Cadastro();
+		try {
+			conexao = ConnectionManager.getInstance().getConnection();
+			stmt = conexao.prepareStatement("SELECT * FROM T_PESSOA WHERE DS_EMAIL = " + email);
+			rs = stmt.executeQuery();
+			
+			//Percorre todos os registros encontrados
+			while (rs.next()) {
+				int cd_pessoa= rs.getInt("CD_PESSOA");
+				String nome = rs.getString("NOME");
+				String sobrenome = rs.getString("SOBRENOME");
+				String ds_email = rs.getString("DS_EMAIL");
+				String cpf = rs.getString("CPF");
+				String senha = rs.getString("SENHA");
+				java.sql.Date data = rs.getDate("DT_NASC");
+				Calendar dt_nasc = Calendar.getInstance();
+				dt_nasc.setTimeInMillis(data.getTime());
+				
+				cadastro = new Cadastro(cd_pessoa, nome, sobrenome, ds_email, cpf,senha,dt_nasc);
+				lista.add(cadastro);
+				
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}finally {
+			try {
+				stmt.close();
+				rs.close();
+				conexao.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+			
+		}
+		return cadastro;
+	}
 }
 

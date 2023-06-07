@@ -58,8 +58,7 @@
 		
 	</div>
 <%@ include file="footer.jsp" %>	
-	
-		
+			
 <div class="modal fade" id="excluirModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
@@ -70,7 +69,7 @@
         </button>
       </div>
       <div class="modal-body">
-        		Deseja realmente excluir o produto?
+        		Deseja realmente excluir o usuário?
       </div>
       <div class="modal-footer">
       	<form action="cadastro" method="post">
